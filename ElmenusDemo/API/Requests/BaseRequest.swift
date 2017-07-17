@@ -28,7 +28,7 @@ public class BaseRequest<T: Mappable>: NSObject {
 
     public func getResponseObject(url: String, debugResponse: Bool = true) {
         sessionManager?.request(url, method: getMethodType(), parameters: getParameters() , encoding: JSONEncoding.default ,headers: getHeaders())
-                .loginDebugLog()
+                .debugLog()
                 .responseObject(completionHandler: { (response: DataResponse<T>) in
 
                     if debugResponse {

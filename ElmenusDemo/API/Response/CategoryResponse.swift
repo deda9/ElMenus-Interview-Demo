@@ -13,9 +13,9 @@ public class CategoryResponse: Mappable {
 
     var categoriesList : [Category]?
 
-    required init?(map: Map) {}
+    required public init?(map: Map) {}
     
-    func mapping(map: Map){
+    public func mapping(map: Map){
         categoriesList <- map["categories"]
     }
 }

@@ -22,6 +22,16 @@
 		8F3AFCBB1F1D4ED600C94917 /* ResturantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCBA1F1D4ED600C94917 /* ResturantViewModel.swift */; };
 		8F3AFCBD1F1D4F0B00C94917 /* APICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCBC1F1D4F0B00C94917 /* APICoordinator.swift */; };
 		8F3AFCBF1F1D502500C94917 /* RestuarantsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AFCBE1F1D502500C94917 /* RestuarantsView.xib */; };
+		8F3AFCCC1F1D51A600C94917 /* STArchLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC21F1D51A600C94917 /* STArchLoading.swift */; };
+		8F3AFCCD1F1D51A600C94917 /* STBouncyPreloaderLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC31F1D51A600C94917 /* STBouncyPreloaderLoading.swift */; };
+		8F3AFCCE1F1D51A600C94917 /* STGlassesLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC41F1D51A600C94917 /* STGlassesLoading.swift */; };
+		8F3AFCCF1F1D51A600C94917 /* STPacManLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC51F1D51A600C94917 /* STPacManLoading.swift */; };
+		8F3AFCD01F1D51A600C94917 /* STSubmitLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC61F1D51A600C94917 /* STSubmitLoading.swift */; };
+		8F3AFCD11F1D51A600C94917 /* STTriangleLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC71F1D51A600C94917 /* STTriangleLoading.swift */; };
+		8F3AFCD21F1D51A600C94917 /* STWalkLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC81F1D51A600C94917 /* STWalkLoading.swift */; };
+		8F3AFCD31F1D51A600C94917 /* STZhiHuLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCC91F1D51A600C94917 /* STZhiHuLoading.swift */; };
+		8F3AFCD41F1D51A600C94917 /* STLoadingable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCCA1F1D51A600C94917 /* STLoadingable.swift */; };
+		8F3AFCD51F1D51A600C94917 /* STLoadingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCCB1F1D51A600C94917 /* STLoadingGroup.swift */; };
 		B7C9385B082AB7F849ACE7DF /* Pods_ElmenusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C591D2E533007A649701393 /* Pods_ElmenusDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +56,16 @@
 		8F3AFCBA1F1D4ED600C94917 /* ResturantViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantViewModel.swift; sourceTree = "<group>"; };
 		8F3AFCBC1F1D4F0B00C94917 /* APICoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICoordinator.swift; sourceTree = "<group>"; };
 		8F3AFCBE1F1D502500C94917 /* RestuarantsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestuarantsView.xib; sourceTree = "<group>"; };
+		8F3AFCC21F1D51A600C94917 /* STArchLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STArchLoading.swift; sourceTree = "<group>"; };
+		8F3AFCC31F1D51A600C94917 /* STBouncyPreloaderLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STBouncyPreloaderLoading.swift; sourceTree = "<group>"; };
+		8F3AFCC41F1D51A600C94917 /* STGlassesLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STGlassesLoading.swift; sourceTree = "<group>"; };
+		8F3AFCC51F1D51A600C94917 /* STPacManLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STPacManLoading.swift; sourceTree = "<group>"; };
+		8F3AFCC61F1D51A600C94917 /* STSubmitLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STSubmitLoading.swift; sourceTree = "<group>"; };
+		8F3AFCC71F1D51A600C94917 /* STTriangleLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTriangleLoading.swift; sourceTree = "<group>"; };
+		8F3AFCC81F1D51A600C94917 /* STWalkLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STWalkLoading.swift; sourceTree = "<group>"; };
+		8F3AFCC91F1D51A600C94917 /* STZhiHuLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STZhiHuLoading.swift; sourceTree = "<group>"; };
+		8F3AFCCA1F1D51A600C94917 /* STLoadingable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingable.swift; sourceTree = "<group>"; };
+		8F3AFCCB1F1D51A600C94917 /* STLoadingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLoadingGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +213,7 @@
 		8F3AFCB41F1D4D4700C94917 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCC01F1D51A600C94917 /* LoadingBar */,
 				8F3AFCB51F1D4D6200C94917 /* Utils.swift */,
 			);
 			path = Utils;
@@ -204,6 +225,31 @@
 				8F3AFCBA1F1D4ED600C94917 /* ResturantViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8F3AFCC01F1D51A600C94917 /* LoadingBar */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AFCC11F1D51A600C94917 /* Loading */,
+				8F3AFCCA1F1D51A600C94917 /* STLoadingable.swift */,
+				8F3AFCCB1F1D51A600C94917 /* STLoadingGroup.swift */,
+			);
+			path = LoadingBar;
+			sourceTree = "<group>";
+		};
+		8F3AFCC11F1D51A600C94917 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AFCC21F1D51A600C94917 /* STArchLoading.swift */,
+				8F3AFCC31F1D51A600C94917 /* STBouncyPreloaderLoading.swift */,
+				8F3AFCC41F1D51A600C94917 /* STGlassesLoading.swift */,
+				8F3AFCC51F1D51A600C94917 /* STPacManLoading.swift */,
+				8F3AFCC61F1D51A600C94917 /* STSubmitLoading.swift */,
+				8F3AFCC71F1D51A600C94917 /* STTriangleLoading.swift */,
+				8F3AFCC81F1D51A600C94917 /* STWalkLoading.swift */,
+				8F3AFCC91F1D51A600C94917 /* STZhiHuLoading.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		C820C3C0C3DA5E43FE5616E1 /* Frameworks */ = {
@@ -337,18 +383,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3AFCD31F1D51A600C94917 /* STZhiHuLoading.swift in Sources */,
+				8F3AFCD51F1D51A600C94917 /* STLoadingGroup.swift in Sources */,
+				8F3AFCCD1F1D51A600C94917 /* STBouncyPreloaderLoading.swift in Sources */,
+				8F3AFCD11F1D51A600C94917 /* STTriangleLoading.swift in Sources */,
 				8F3AFCA91F1D488000C94917 /* BaseRequest.swift in Sources */,
 				8F3AFCAB1F1D48BD00C94917 /* RestuarantsViewController.swift in Sources */,
 				8F3AFCAD1F1D4B7D00C94917 /* CategoryResponse.swift in Sources */,
 				8F3AFCB11F1D4C3100C94917 /* SubCategory.swift in Sources */,
+				8F3AFCCF1F1D51A600C94917 /* STPacManLoading.swift in Sources */,
 				8F3AFCBD1F1D4F0B00C94917 /* APICoordinator.swift in Sources */,
 				8F3AFCB61F1D4D6200C94917 /* Utils.swift in Sources */,
 				8F3AFC8B1F1D443D00C94917 /* AppDelegate.swift in Sources */,
+				8F3AFCCE1F1D51A600C94917 /* STGlassesLoading.swift in Sources */,
 				8F3AFCB81F1D4E5A00C94917 /* AlmofireRequestExtensions.swift in Sources */,
 				8F3AFCA41F1D451600C94917 /* BaseViewController.swift in Sources */,
+				8F3AFCD21F1D51A600C94917 /* STWalkLoading.swift in Sources */,
 				8F3AFCAF1F1D4BFF00C94917 /* Category.swift in Sources */,
 				8F3AFCB31F1D4CBF00C94917 /* CategoryRequest.swift in Sources */,
+				8F3AFCCC1F1D51A600C94917 /* STArchLoading.swift in Sources */,
+				8F3AFCD41F1D51A600C94917 /* STLoadingable.swift in Sources */,
 				8F3AFCBB1F1D4ED600C94917 /* ResturantViewModel.swift in Sources */,
+				8F3AFCD01F1D51A600C94917 /* STSubmitLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
