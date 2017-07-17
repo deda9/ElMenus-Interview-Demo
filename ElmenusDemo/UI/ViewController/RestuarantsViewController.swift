@@ -26,19 +26,20 @@ class RestuarantsViewController: BaseViewController {
 extension RestuarantsViewController: CategoryRequestDelegate{
     
     func categoryRequestWillSend(){
-        
+        showProgressDialog()
     }
     
-    func categoryRequestSucceeded(data: [CategoryResponse]?){
-        
+    func categoryRequestSucceeded(data: CategoryResponse?){
+        hideProgressDialog()
+        print(data?.categoriesList?.count)
     }
     
     func categoryRequestFailed(){
-        
+        hideProgressDialog()
     }
     
     func categoryRequestEmptyResponse(){
-        
+        hideProgressDialog()
     }
 
 }

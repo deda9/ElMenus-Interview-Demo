@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Dotzu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         openHomeView()
+        setupDotzuDebugger()
         return true
     }
 
@@ -28,6 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.tintColor = UIColor.white
         self.window!.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
+    }
+    
+    
+    private func setupDotzuDebugger(){
+        #if DEBUG
+            Dotzu.sharedManager.enable();
+        #endif
     }
     
     func applicationWillResignActive(_ application: UIApplication) {

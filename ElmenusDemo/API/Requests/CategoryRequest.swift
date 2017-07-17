@@ -17,7 +17,7 @@ public protocol CategoryRequestDelegate: NSObjectProtocol {
     
     func categoryRequestWillSend()
     
-    func categoryRequestSucceeded(data: [CategoryResponse]?)
+    func categoryRequestSucceeded(data: CategoryResponse?)
     
     func categoryRequestFailed()
     
@@ -34,10 +34,10 @@ public class CategoryRequest: BaseRequest<CategoryResponse> {
     
     public func getCategoryList() {
         delegate?.categoryRequestWillSend()
-        getResponseObject(url: Utils.MENUS_URL, debugResponse: false)
+        getResponseObject(url: Utils.MENUS_URL, debugResponse: true)
     }
     
-    override func onRequestSuccess(data: [EventListDataModel]?) {
+    override func onRequestSuccess(data: CategoryResponse?) {
         delegate?.categoryRequestSucceeded(data: data)
     }
     

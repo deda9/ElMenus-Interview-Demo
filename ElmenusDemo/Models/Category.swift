@@ -13,8 +13,8 @@ public class Category: Mappable {
     
     var descriptionField : String?
     var id : Int?
-    var subCategory : [SubCategory]?
     var name : String?
+    var subCategory : [SubCategory]?
     
     required public init?(map: Map) {}
     
