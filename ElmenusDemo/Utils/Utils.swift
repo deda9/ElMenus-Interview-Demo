@@ -7,7 +7,18 @@
 //
 
 import Foundation
-struct Utils {
+import UIKit
+
+class Utils {
     
     static let MENUS_URL = "http://elmenus.getsandbox.com/menu"
+    
+    public static func isIPhone() -> Bool {
+        return UIDevice().userInterfaceIdiom == .phone
+    }
+    
+    public static func isIPad() -> Bool {
+        return UIDevice().userInterfaceIdiom == .pad
+    }
+
 }

@@ -36,6 +36,11 @@
 		8F3AFCDD1F1D582D00C94917 /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCDA1F1D582D00C94917 /* CollapsibleTableViewController.swift */; };
 		8F3AFCDE1F1D582D00C94917 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCDB1F1D582D00C94917 /* CollapsibleTableViewHeader.swift */; };
 		8F3AFCDF1F1D582D00C94917 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCDC1F1D582D00C94917 /* Extensions.swift */; };
+		8F3AFCE51F1D5AD500C94917 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCE41F1D5AD500C94917 /* MenuItemCell.swift */; };
+		8F3AFCE71F1D5AF300C94917 /* MenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AFCE61F1D5AF300C94917 /* MenuItemCell.xib */; };
+		8F3AFCE91F1D5B4400C94917 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCE81F1D5B4400C94917 /* UILabelExtensions.swift */; };
+		8F3AFCEB1F1D5BE700C94917 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCEA1F1D5BE700C94917 /* UIButtonExtensions.swift */; };
+		8F3AFCED1F1D5E5E00C94917 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCEC1F1D5E5E00C94917 /* UIColorExtensions.swift */; };
 		B7C9385B082AB7F849ACE7DF /* Pods_ElmenusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C591D2E533007A649701393 /* Pods_ElmenusDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +79,11 @@
 		8F3AFCDA1F1D582D00C94917 /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
 		8F3AFCDB1F1D582D00C94917 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
 		8F3AFCDC1F1D582D00C94917 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F3AFCE41F1D5AD500C94917 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		8F3AFCE61F1D5AF300C94917 /* MenuItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuItemCell.xib; sourceTree = "<group>"; };
+		8F3AFCE81F1D5B4400C94917 /* UILabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		8F3AFCEA1F1D5BE700C94917 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		8F3AFCEC1F1D5E5E00C94917 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,7 @@
 		8F3AFCA01F1D44F300C94917 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCE61F1D5AF300C94917 /* MenuItemCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -190,6 +201,7 @@
 				8F3AFCD91F1D581700C94917 /* ExpandableTable */,
 				8F3AFCA31F1D451600C94917 /* BaseViewController.swift */,
 				8F3AFCAA1F1D48BD00C94917 /* RestuarantsViewController.swift */,
+				8F3AFCE41F1D5AD500C94917 /* MenuItemCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -266,6 +278,9 @@
 			isa = PBXGroup;
 			children = (
 				8F3AFCD71F1D51FC00C94917 /* UIViewExtensions.swift */,
+				8F3AFCE81F1D5B4400C94917 /* UILabelExtensions.swift */,
+				8F3AFCEA1F1D5BE700C94917 /* UIButtonExtensions.swift */,
+				8F3AFCEC1F1D5E5E00C94917 /* UIColorExtensions.swift */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -351,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F3AFC951F1D443D00C94917 /* LaunchScreen.storyboard in Resources */,
+				8F3AFCE71F1D5AF300C94917 /* MenuItemCell.xib in Resources */,
 				8F3AFC921F1D443D00C94917 /* Assets.xcassets in Resources */,
 				8F3AFCBF1F1D502500C94917 /* RestuarantsView.xib in Resources */,
 			);
@@ -415,10 +431,12 @@
 				8F3AFCD31F1D51A600C94917 /* STZhiHuLoading.swift in Sources */,
 				8F3AFCD51F1D51A600C94917 /* STLoadingGroup.swift in Sources */,
 				8F3AFCCD1F1D51A600C94917 /* STBouncyPreloaderLoading.swift in Sources */,
+				8F3AFCE91F1D5B4400C94917 /* UILabelExtensions.swift in Sources */,
 				8F3AFCD11F1D51A600C94917 /* STTriangleLoading.swift in Sources */,
 				8F3AFCDE1F1D582D00C94917 /* CollapsibleTableViewHeader.swift in Sources */,
 				8F3AFCD81F1D51FC00C94917 /* UIViewExtensions.swift in Sources */,
 				8F3AFCA91F1D488000C94917 /* BaseRequest.swift in Sources */,
+				8F3AFCED1F1D5E5E00C94917 /* UIColorExtensions.swift in Sources */,
 				8F3AFCAB1F1D48BD00C94917 /* RestuarantsViewController.swift in Sources */,
 				8F3AFCAD1F1D4B7D00C94917 /* CategoryResponse.swift in Sources */,
 				8F3AFCB11F1D4C3100C94917 /* SubCategory.swift in Sources */,
@@ -435,6 +453,8 @@
 				8F3AFCDF1F1D582D00C94917 /* Extensions.swift in Sources */,
 				8F3AFCCC1F1D51A600C94917 /* STArchLoading.swift in Sources */,
 				8F3AFCD41F1D51A600C94917 /* STLoadingable.swift in Sources */,
+				8F3AFCE51F1D5AD500C94917 /* MenuItemCell.swift in Sources */,
+				8F3AFCEB1F1D5BE700C94917 /* UIButtonExtensions.swift in Sources */,
 				8F3AFCBB1F1D4ED600C94917 /* ResturantViewModel.swift in Sources */,
 				8F3AFCD01F1D51A600C94917 /* STSubmitLoading.swift in Sources */,
 			);
