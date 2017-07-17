@@ -11,7 +11,7 @@ import ObjectMapper
 import AlamofireObjectMapper
 import Dotzu
 
-public class BaseLoginRequest<T:Mappable>: NSObject {
+public class BaseRequest<T: Mappable>: NSObject {
 
     var sessionManager: SessionManager?
 

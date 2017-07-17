@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8F3AFC8B1F1D443D00C94917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFC8A1F1D443D00C94917 /* AppDelegate.swift */; };
-		8F3AFC8D1F1D443D00C94917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFC8C1F1D443D00C94917 /* ViewController.swift */; };
 		8F3AFC921F1D443D00C94917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AFC911F1D443D00C94917 /* Assets.xcassets */; };
 		8F3AFC951F1D443D00C94917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AFC931F1D443D00C94917 /* LaunchScreen.storyboard */; };
 		8F3AFCA41F1D451600C94917 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCA31F1D451600C94917 /* BaseViewController.swift */; };
@@ -17,6 +16,12 @@
 		8F3AFCAD1F1D4B7D00C94917 /* CategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCAC1F1D4B7D00C94917 /* CategoryResponse.swift */; };
 		8F3AFCAF1F1D4BFF00C94917 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCAE1F1D4BFF00C94917 /* Category.swift */; };
 		8F3AFCB11F1D4C3100C94917 /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCB01F1D4C3100C94917 /* SubCategory.swift */; };
+		8F3AFCB31F1D4CBF00C94917 /* CategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCB21F1D4CBF00C94917 /* CategoryRequest.swift */; };
+		8F3AFCB61F1D4D6200C94917 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCB51F1D4D6200C94917 /* Utils.swift */; };
+		8F3AFCB81F1D4E5A00C94917 /* AlmofireRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCB71F1D4E5A00C94917 /* AlmofireRequestExtensions.swift */; };
+		8F3AFCBB1F1D4ED600C94917 /* ResturantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCBA1F1D4ED600C94917 /* ResturantViewModel.swift */; };
+		8F3AFCBD1F1D4F0B00C94917 /* APICoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCBC1F1D4F0B00C94917 /* APICoordinator.swift */; };
+		8F3AFCBF1F1D502500C94917 /* RestuarantsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AFCBE1F1D502500C94917 /* RestuarantsView.xib */; };
 		B7C9385B082AB7F849ACE7DF /* Pods_ElmenusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C591D2E533007A649701393 /* Pods_ElmenusDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +31,6 @@
 		5C591D2E533007A649701393 /* Pods_ElmenusDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElmenusDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3AFC871F1D443D00C94917 /* ElmenusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElmenusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3AFC8A1F1D443D00C94917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F3AFC8C1F1D443D00C94917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F3AFC911F1D443D00C94917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3AFC941F1D443D00C94917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3AFC961F1D443D00C94917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +40,12 @@
 		8F3AFCAC1F1D4B7D00C94917 /* CategoryResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryResponse.swift; sourceTree = "<group>"; };
 		8F3AFCAE1F1D4BFF00C94917 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		8F3AFCB01F1D4C3100C94917 /* SubCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
+		8F3AFCB21F1D4CBF00C94917 /* CategoryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRequest.swift; sourceTree = "<group>"; };
+		8F3AFCB51F1D4D6200C94917 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8F3AFCB71F1D4E5A00C94917 /* AlmofireRequestExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlmofireRequestExtensions.swift; sourceTree = "<group>"; };
+		8F3AFCBA1F1D4ED600C94917 /* ResturantViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantViewModel.swift; sourceTree = "<group>"; };
+		8F3AFCBC1F1D4F0B00C94917 /* APICoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICoordinator.swift; sourceTree = "<group>"; };
+		8F3AFCBE1F1D502500C94917 /* RestuarantsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestuarantsView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +90,13 @@
 		8F3AFC891F1D443D00C94917 /* ElmenusDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCB91F1D4ECD00C94917 /* ViewModel */,
+				8F3AFCB41F1D4D4700C94917 /* Utils */,
 				8F3AFC9F1F1D44E600C94917 /* Models */,
 				8F3AFC9E1F1D44DD00C94917 /* API */,
 				8F3AFC9D1F1D44D300C94917 /* UI */,
 				8F3AFC9C1F1D44CB00C94917 /* Resource */,
 				8F3AFC8A1F1D443D00C94917 /* AppDelegate.swift */,
-				8F3AFC8C1F1D443D00C94917 /* ViewController.swift */,
 				8F3AFC911F1D443D00C94917 /* Assets.xcassets */,
 				8F3AFC931F1D443D00C94917 /* LaunchScreen.storyboard */,
 				8F3AFC961F1D443D00C94917 /* Info.plist */,
@@ -139,6 +150,7 @@
 		8F3AFCA11F1D44FF00C94917 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCBE1F1D502500C94917 /* RestuarantsView.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -155,7 +167,9 @@
 		8F3AFCA51F1D485100C94917 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCB71F1D4E5A00C94917 /* AlmofireRequestExtensions.swift */,
 				8F3AFCA81F1D488000C94917 /* BaseRequest.swift */,
+				8F3AFCB21F1D4CBF00C94917 /* CategoryRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -171,8 +185,25 @@
 		8F3AFCA71F1D486E00C94917 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCBC1F1D4F0B00C94917 /* APICoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8F3AFCB41F1D4D4700C94917 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AFCB51F1D4D6200C94917 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8F3AFCB91F1D4ECD00C94917 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AFCBA1F1D4ED600C94917 /* ResturantViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C820C3C0C3DA5E43FE5616E1 /* Frameworks */ = {
@@ -247,6 +278,7 @@
 			files = (
 				8F3AFC951F1D443D00C94917 /* LaunchScreen.storyboard in Resources */,
 				8F3AFC921F1D443D00C94917 /* Assets.xcassets in Resources */,
+				8F3AFCBF1F1D502500C94917 /* RestuarantsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,11 +340,15 @@
 				8F3AFCA91F1D488000C94917 /* BaseRequest.swift in Sources */,
 				8F3AFCAB1F1D48BD00C94917 /* RestuarantsViewController.swift in Sources */,
 				8F3AFCAD1F1D4B7D00C94917 /* CategoryResponse.swift in Sources */,
-				8F3AFC8D1F1D443D00C94917 /* ViewController.swift in Sources */,
 				8F3AFCB11F1D4C3100C94917 /* SubCategory.swift in Sources */,
+				8F3AFCBD1F1D4F0B00C94917 /* APICoordinator.swift in Sources */,
+				8F3AFCB61F1D4D6200C94917 /* Utils.swift in Sources */,
 				8F3AFC8B1F1D443D00C94917 /* AppDelegate.swift in Sources */,
+				8F3AFCB81F1D4E5A00C94917 /* AlmofireRequestExtensions.swift in Sources */,
 				8F3AFCA41F1D451600C94917 /* BaseViewController.swift in Sources */,
 				8F3AFCAF1F1D4BFF00C94917 /* Category.swift in Sources */,
+				8F3AFCB31F1D4CBF00C94917 /* CategoryRequest.swift in Sources */,
+				8F3AFCBB1F1D4ED600C94917 /* ResturantViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

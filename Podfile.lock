@@ -4,6 +4,7 @@ PODS:
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
   - Cartography (1.1.0)
+  - Dotzu (1.8)
   - Kingfisher (3.6.2)
   - Localize-Swift (1.7.1)
   - ObjectMapper (2.2.6)
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - Alamofire (~> 4.4.0)
   - AlamofireObjectMapper
   - Cartography
+  - Dotzu
   - Kingfisher
   - Localize-Swift
   - ObjectMapper (~> 2.2)
@@ -22,11 +24,12 @@ SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
   Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+  Dotzu: e787896f08474f4e4574baa20ec556361dfebf0c
   Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
   Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
   ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 1e75a878c4f2d5c168029131e98b168ef8eb99d0
+PODFILE CHECKSUM: 331958a307b2ff671200730244c1f30a36b13dae
 
 COCOAPODS: 1.0.1

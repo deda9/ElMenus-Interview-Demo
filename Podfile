@@ -25,4 +25,7 @@ target 'ElmenusDemo' do
     pod 'SwiftyJSON'
     pod 'AlamofireObjectMapper'
     
+    #Debugger
+    pod 'Dotzu'
+
 end
