@@ -14,6 +14,9 @@
 		8F3AFCA41F1D451600C94917 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCA31F1D451600C94917 /* BaseViewController.swift */; };
 		8F3AFCA91F1D488000C94917 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCA81F1D488000C94917 /* BaseRequest.swift */; };
 		8F3AFCAB1F1D48BD00C94917 /* RestuarantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCAA1F1D48BD00C94917 /* RestuarantsViewController.swift */; };
+		8F3AFCAD1F1D4B7D00C94917 /* CategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCAC1F1D4B7D00C94917 /* CategoryResponse.swift */; };
+		8F3AFCAF1F1D4BFF00C94917 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCAE1F1D4BFF00C94917 /* Category.swift */; };
+		8F3AFCB11F1D4C3100C94917 /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AFCB01F1D4C3100C94917 /* SubCategory.swift */; };
 		B7C9385B082AB7F849ACE7DF /* Pods_ElmenusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C591D2E533007A649701393 /* Pods_ElmenusDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		8F3AFCA31F1D451600C94917 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		8F3AFCA81F1D488000C94917 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 		8F3AFCAA1F1D48BD00C94917 /* RestuarantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestuarantsViewController.swift; sourceTree = "<group>"; };
+		8F3AFCAC1F1D4B7D00C94917 /* CategoryResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryResponse.swift; sourceTree = "<group>"; };
+		8F3AFCAE1F1D4BFF00C94917 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8F3AFCB01F1D4C3100C94917 /* SubCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 		8F3AFC9F1F1D44E600C94917 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCAE1F1D4BFF00C94917 /* Category.swift */,
+				8F3AFCB01F1D4C3100C94917 /* SubCategory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -155,6 +163,7 @@
 		8F3AFCA61F1D485B00C94917 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AFCAC1F1D4B7D00C94917 /* CategoryResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -298,9 +307,12 @@
 			files = (
 				8F3AFCA91F1D488000C94917 /* BaseRequest.swift in Sources */,
 				8F3AFCAB1F1D48BD00C94917 /* RestuarantsViewController.swift in Sources */,
+				8F3AFCAD1F1D4B7D00C94917 /* CategoryResponse.swift in Sources */,
 				8F3AFC8D1F1D443D00C94917 /* ViewController.swift in Sources */,
+				8F3AFCB11F1D4C3100C94917 /* SubCategory.swift in Sources */,
 				8F3AFC8B1F1D443D00C94917 /* AppDelegate.swift in Sources */,
 				8F3AFCA41F1D451600C94917 /* BaseViewController.swift in Sources */,
+				8F3AFCAF1F1D4BFF00C94917 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
