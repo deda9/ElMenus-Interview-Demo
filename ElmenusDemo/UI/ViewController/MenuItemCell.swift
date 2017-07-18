@@ -28,7 +28,7 @@ class MenuItemCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         contentView.frame = UIEdgeInsetsInsetRect(contentView.frame,
-                                                  UIEdgeInsetsMake(10, 10, 10, 10))
+                                                  UIEdgeInsetsMake(0, 5, 5, 5))
     }
     
     

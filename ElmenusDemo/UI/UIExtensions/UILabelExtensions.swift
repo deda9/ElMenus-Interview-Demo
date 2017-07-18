@@ -16,7 +16,7 @@ public extension UILabel {
         constrain(self) { title in
             title.left == title.superview!.left + 10
             title.right == title.superview!.right - 10
-            title.top == title.superview!.top 
+            title.top == title.superview!.top + 10
         }
     }
     
