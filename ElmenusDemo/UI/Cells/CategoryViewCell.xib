@@ -37,7 +37,9 @@
                         </connections>
                     </button>
                 </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <connections>
                 <outlet property="expandCollapseButton" destination="5A8-a5-pIH" id="4fw-1h-SeQ"/>
                 <outlet property="titleLabel" destination="DAO-YG-3wS" id="WC4-Fr-yiE"/>
