@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LUExpandableTableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Localize-Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -44,6 +49,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReachabilitySwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftMessages-SwiftMessages.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftMessages.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,17 +72,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>298AFBC306AF546473699F17C4EF6140</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2F5622F3B18DF497981AB58C6D1FC72F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>31B61F0FEB4248EC9C1C37240CF41006</key>
+		<key>45D3796A69A926CA7D961CA325525730</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46AB9C69F9BB6AD05FB3E79C88290539</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>544212980401A6DA7806F65EAD8C6637</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5489B6358CA0291D12A9426A12C36637</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C4944FEC314D1A66588651D006273ADE</key>
+		<key>9BA2F6A32847AE172AA1A98D3F08CE63</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6FD510FD0F208C3C29E0B830A973CAF</key>
+		<key>B0DB0AE168860164ECC4CC126646FC92</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4944FEC314D1A66588651D006273ADE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,21 +14,29 @@ public extension UILabel {
     //MARK: Layout Constraints
     func cellMenuItemTitleConstraintsLayout() {
         constrain(self) { title in
-            title.left == title.superview!.left
+            title.left == title.superview!.left + 10
+            title.right == title.superview!.right - 10
+            title.top == title.superview!.top 
+        }
+    }
+    
+    func cellCategoryTitleConstraintsLayout() {
+        constrain(self) { title in
+            title.left == title.superview!.left + ( Utils.isIPhone() ? 10 : 20 )
             title.right == title.superview!.right
-            title.top == title.superview!.top
+            title.center == title.superview!.center
         }
     }
     
     func cellMenuItemDescriptionConstraintsLayout(topParent: UILabel, bottomParent: UIButton) {
-        constrain(self, topParent, bottomParent) { title, topParent, bottomParent in
-            title.left == title.superview!.left
-            title.right == title.superview!.right
-            title.bottom == bottomParent.top
-            title.top == topParent.bottom + ( Utils.isIPhone() ? 10 : 20 )
+        constrain(self, topParent, bottomParent) { description, topParent, bottomParent in
+            description.left == description.superview!.left + 10
+            description.right == description.superview!.right
+            description.bottom == bottomParent.top - 20
+            description.width == description.superview!.width - 20
+            description.top == topParent.bottom + ( Utils.isIPhone() ? 10 : 20 )
         }
     }
-    
     
     //MARK: Styles
     func cellMenuItemTitleStyle(){
@@ -36,6 +44,12 @@ public extension UILabel {
         numberOfLines = 0
         textAlignment = .left
         
+    }
+    
+    func cellCategoryTitleStyle(){
+        textColor = UIColor.black
+        numberOfLines = 0
+        textAlignment = .left
     }
     
     func cellMenuItemDescriptionStyle(){

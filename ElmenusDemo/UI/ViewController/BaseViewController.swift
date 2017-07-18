@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ReachabilitySwift
 
 class BaseViewController: UIViewController {
     
@@ -39,5 +40,27 @@ class BaseViewController: UIViewController {
         dialogFullScreenView?.removeFromSuperview()
     }
     
+    func setScreeenTitle(){
+        navigationItem.title = "Menus"
+    }
+    
+    public func showErrorMessage(_ message: String){
+        UIHelper.showErrorMessage(message)
+    }
+    
+    public func showInfoMessage(_ message: String){
+        UIHelper.showInfoMessage(message)
+    }
+    
+    public func isNetworkConnected() -> Bool{
+        let reachability = Reachability()!
+        return reachability.isReachable
+    }
+    
+    public func showNoNetworkConnectedMessage(){
+        UIHelper.showErrorMessage("There is no network connection right now, try again later")
+    }
+
+
 }
 

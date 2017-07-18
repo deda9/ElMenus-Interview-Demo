@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ElmenusDemo/UI/ViewController/RestuarantsViewController.swift"
-            timestampString = "522015631.864346"
+            timestampString = "522039804.938708"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "categoryRequestSucceeded(data:)"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "expandableTableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ElmenusDemo/API/Requests/BaseRequest.swift"
-            timestampString = "522015778.859475"
+            filePath = "ElmenusDemo/UI/ViewController/RestuarantsViewController.swift"
+            timestampString = "522039874.649444"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "getResponseObject(url:debugResponse:)"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "expandableTableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LUExpandableTableView/Sources/LUExpandableTableView.swift"
+            timestampString = "522038446.235255"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "tableView(_:heightForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

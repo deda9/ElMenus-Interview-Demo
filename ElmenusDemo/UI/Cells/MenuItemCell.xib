@@ -33,22 +33,23 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OH-hS-AY3">
-                        <rect key="frame" x="16" y="94" width="60" height="30"/>
+                        <rect key="frame" x="16" y="94" width="77" height="30"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.98534482759999997" colorSpace="calibratedRGB"/>
                         <state key="normal" title="Like">
                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </state>
                         <connections>
-                            <action selector="doLike:" destination="a7e-hy-vca" eventType="touchUpInside" id="54S-e5-bj2"/>
+                            <action selector="doLike:" destination="a7e-hy-vca" eventType="touchUpInside" id="Axw-mv-gl7"/>
                         </connections>
                     </button>
                 </subviews>
+                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53367456896551724" colorSpace="calibratedRGB"/>
             </tableViewCellContentView>
             <connections>
-                <outlet property="descriptionLabel" destination="eoj-kj-m0m" id="BeA-T5-nqw"/>
-                <outlet property="likeButton" destination="7OH-hS-AY3" id="HhJ-92-hrI"/>
-                <outlet property="titleLabel" destination="uvt-Uo-NHb" id="E99-kn-DRV"/>
+                <outlet property="descriptionLabel" destination="eoj-kj-m0m" id="a0k-JE-XDP"/>
+                <outlet property="likeButton" destination="7OH-hS-AY3" id="QvV-9Z-9E3"/>
+                <outlet property="titleLabel" destination="uvt-Uo-NHb" id="YgX-zH-p7l"/>
             </connections>
             <point key="canvasLocation" x="-164.5" y="87"/>
         </tableViewCell>

@@ -7,7 +7,10 @@ PODS:
   - Dotzu (1.8)
   - Kingfisher (3.6.2)
   - Localize-Swift (1.7.1)
+  - LUExpandableTableView (2.1.0)
   - ObjectMapper (2.2.6)
+  - ReachabilitySwift (3)
+  - SwiftMessages (3.3.3)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
@@ -17,7 +20,10 @@ DEPENDENCIES:
   - Dotzu
   - Kingfisher
   - Localize-Swift
+  - LUExpandableTableView
   - ObjectMapper (~> 2.2)
+  - ReachabilitySwift
+  - SwiftMessages
   - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -27,9 +33,12 @@ SPEC CHECKSUMS:
   Dotzu: e787896f08474f4e4574baa20ec556361dfebf0c
   Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
   Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
+  LUExpandableTableView: b4896516a813f13e49c2c1b319775fdddf916b9e
   ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftMessages: 09cea3336e3fb63c3578983c8aac65acaa6d884a
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 331958a307b2ff671200730244c1f30a36b13dae
+PODFILE CHECKSUM: 46ebda3690661a2ab443e0e9bf04c7d27fde21f9
 
 COCOAPODS: 1.0.1
