@@ -10,6 +10,10 @@ import Foundation
 import UIKit
 import LUExpandableTableView
 
+
+/*
+ * menu or Category cell which will be expanded
+ */
 class CategoryViewCell: LUExpandableTableViewSectionHeader {
     
     @IBOutlet var titleLabel: UILabel!
@@ -41,6 +45,7 @@ class CategoryViewCell: LUExpandableTableViewSectionHeader {
         }
     }
     
+    //MARK: Prepare design
     private func prepareTitleLabel() {
         titleLabel.cellCategoryTitleStyle()
         titleLabel.cellCategoryTitleConstraintsLayout()

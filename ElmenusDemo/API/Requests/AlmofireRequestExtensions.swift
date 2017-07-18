@@ -9,6 +9,10 @@
 import Alamofire
 import Dotzu
 
+
+/*
+ * Simple extension for almofire request to debug it
+ */
 public extension Request{
     
     public func debugLog() -> Self {

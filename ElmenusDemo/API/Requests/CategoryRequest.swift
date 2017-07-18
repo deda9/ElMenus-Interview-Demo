@@ -13,6 +13,10 @@ import ObjectMapper
 import AlamofireObjectMapper
 import Dotzu
 
+
+/*
+ * Category netrok request extend from the general base
+ */
 public protocol CategoryRequestDelegate: NSObjectProtocol {
     
     func categoryRequestWillSend()

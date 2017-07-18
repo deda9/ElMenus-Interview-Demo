@@ -11,6 +11,10 @@ import ObjectMapper
 import AlamofireObjectMapper
 import Dotzu
 
+
+/*
+ * Base netwrok request which used in all the operations
+ */
 public class BaseRequest<T: Mappable>: NSObject {
     
     var sessionManager: SessionManager?

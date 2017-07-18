@@ -9,6 +9,10 @@
 import Foundation
 import Cartography
 
+
+/*
+ * the menu cell which will be contained in expanded cell 
+ */
 class MenuItemCell: UITableViewCell {
     
     static let ID = "MenuItemCell"
@@ -31,7 +35,7 @@ class MenuItemCell: UITableViewCell {
                                                   UIEdgeInsetsMake(0, 5, 5, 5))
     }
     
-    
+    //MARK: Prepare design
     private func prepareCell() {
         selectionStyle = .none
     }

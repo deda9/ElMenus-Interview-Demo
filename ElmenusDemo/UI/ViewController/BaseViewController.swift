@@ -9,6 +9,10 @@
 import UIKit
 import ReachabilitySwift
 
+
+/*
+ * Base controller contains all the common methods for all the other views
+ */
 class BaseViewController: UIViewController {
     
     var dialogFullScreenView: UIView?

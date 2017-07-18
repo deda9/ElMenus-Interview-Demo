@@ -9,6 +9,10 @@
 import Foundation
 import ObjectMapper
 
+
+/*
+ * SubCategory Model or (Menu Items)
+ */
 public class SubCategory: Mappable {
     
     var descriptionField : String?

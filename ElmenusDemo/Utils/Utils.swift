@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+
+/*
+ * Helper class contain all the utils function and constants
+ */
 class Utils {
     
     static let MENUS_URL = "http://elmenus.getsandbox.com/menu"

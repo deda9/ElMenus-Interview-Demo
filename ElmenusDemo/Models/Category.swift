@@ -9,6 +9,9 @@
 import Foundation
 import ObjectMapper
 
+/*
+ * Category model 
+ */
 public class Category: Mappable {
     
     var descriptionField : String?

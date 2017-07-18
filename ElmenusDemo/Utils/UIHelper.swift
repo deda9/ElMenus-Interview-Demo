@@ -10,8 +10,14 @@ import Foundation
 import UIKit
 import SwiftMessages
 
+/*
+ * Contain all the UI Utils methods
+ */
 public class UIHelper {
     
+    /*
+     * Show the success message
+     */
     public static func showSuccessMessage(_ message: String){
         let view = MessageView.viewFromNib(layout: .CardView)
         view.configureTheme(.success)
@@ -23,6 +29,9 @@ public class UIHelper {
         SwiftMessages.show(config: config, view: view)
     }
     
+    /*
+     * Show the error message
+     */
     public static func showErrorMessage(_ message: String){
         let view = MessageView.viewFromNib(layout: .CardView)
         view.configureTheme(.error)
@@ -33,6 +42,9 @@ public class UIHelper {
         SwiftMessages.show(config: config, view: view)
     }
     
+    /*
+     * show the info message
+     */
     public static func showInfoMessage(_ message: String){
         let view = MessageView.viewFromNib(layout: .CardView)
         view.configureTheme(.info)
@@ -43,6 +55,9 @@ public class UIHelper {
         SwiftMessages.show(config: config, view: view)
     }
     
+    /*
+     * The configuration for the shown message
+     */
     private static func getShowMessageConfig() -> SwiftMessages.Config{
         var config = SwiftMessages.Config()
         config.presentationStyle = .top

@@ -8,8 +8,16 @@
 
 import Foundation
 
+
+/*
+ * Coordinate all the operation for the network requests come from the ResturantViewModel
+ */
 class APICoordinator:NSObject {
     
+    /*
+     * get the list for the menus and take the delegate to back the reponse
+     * create new request and ask it for the data
+     */
     public func getCategoryList(_ delegate: CategoryRequestDelegate ) {
         let categoryRequest = CategoryRequest()
         categoryRequest.delegate = delegate

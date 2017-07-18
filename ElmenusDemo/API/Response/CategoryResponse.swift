@@ -9,6 +9,10 @@
 import Foundation
 import ObjectMapper
 
+
+/*
+ * the response model which back fromt the nework request
+ */
 public class CategoryResponse: Mappable {
 
     var categoriesList : [Category]?

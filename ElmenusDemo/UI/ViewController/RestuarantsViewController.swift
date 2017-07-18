@@ -10,6 +10,10 @@ import Foundation
 import UIKit
 import LUExpandableTableView
 
+
+/*
+ * Restaurant view contoller talk to the view model and preapre the table and ask for the network request
+ */
 class RestuarantsViewController: BaseViewController {
     
     @IBOutlet weak var tableView: LUExpandableTableView!
@@ -17,6 +21,7 @@ class RestuarantsViewController: BaseViewController {
     var categoriesList: NSMutableArray = []
     var heights: [Int: CGFloat] = [:]
     lazy var apiCoordinator = APICoordinator()
+    lazy var MENMU_ITEM_CELL_IDENTIFIRE = "MenuItemCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,13 +30,14 @@ class RestuarantsViewController: BaseViewController {
         getCatrgoryList()
     }
     
+    //MARK: Prepare design
     private func prepareTableView(){
         self.view.addSubview(tableView)
         tableView.backgroundColor = UIColor.white
         tableView.separatorStyle = .none;
         tableView.menusTableLayoutConstraints()
         
-        tableView.register(UINib(nibName: "MenuItemCell", bundle: Bundle.main), forCellReuseIdentifier: "MenuItemCell")
+        tableView.register(UINib(nibName: MENMU_ITEM_CELL_IDENTIFIRE, bundle: Bundle.main), forCellReuseIdentifier: MENMU_ITEM_CELL_IDENTIFIRE)
         tableView.register(UINib(nibName: CategoryViewCell.ID, bundle: Bundle.main),
                            forHeaderFooterViewReuseIdentifier: CategoryViewCell.ID)
         
@@ -61,11 +67,11 @@ extension RestuarantsViewController: LUExpandableTableViewDataSource{
     }
     
     func expandableTableView(_ expandableTableView: LUExpandableTableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let menuItemCell = expandableTableView.dequeueReusableCell(withIdentifier: "MenuItemCell") as? MenuItemCell else {
+        guard let menuItemCell = expandableTableView.dequeueReusableCell(withIdentifier: MENMU_ITEM_CELL_IDENTIFIRE) as? MenuItemCell else {
             #if DEBUG
                 assertionFailure("Cell shouldn't be nil")
             #endif
-            return MenuItemCell.init(style: .default, reuseIdentifier: "MenuItemCell")
+            return MenuItemCell.init(style: .default, reuseIdentifier: MENMU_ITEM_CELL_IDENTIFIRE)
         }
         let category = categoriesList.object(at: indexPath.section) as! Category
         let subCategory = category.subCategory
