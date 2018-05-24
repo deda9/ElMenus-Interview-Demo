@@ -1,6 +1,6 @@
 Hey! 
 
-This is a Menu sample with Expandable TableView and JSON for [ElMenus](https://www.elmenus.com) Interview
+This is Expandable TableView and JSON Parsing 
 
 This demo is written by **MVVM**  and the binding view is done by Delegate (Maybe later we add RxSwift), **SOLID** and 
 
